@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  FieldValue,
-  FieldValues,
-  SubmitHandler,
-  useForm,
-} from "react-hook-form";
+import { SubmitHandler, useForm } from "react-hook-form";
 
 type Input = {
   example: string;
